@@ -16,7 +16,7 @@ const (
 	ChatMessageRoleTool      = "tool"
 )
 
-const chatCompletionsSuffix = "/chat/completions"
+const chatCompletionsSuffix = "/chat/completions/wrong/"
 
 var (
 	ErrChatCompletionInvalidModel       = errors.New("this model is not supported with this method, please use CreateCompletion client method instead") //nolint:lll
